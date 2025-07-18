@@ -1,0 +1,75 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     background-color: hsl(228, 70%, 78%);
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.QR__component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.QR__info {
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    width: 100%;
+}
+
+
+.QR__info img {
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.QR__info h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.QR__info P {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/*============================================= MEDIA QUERIES(TABLET)=============================================================*/
+
+
+
+
+
+
+
+/*============================================= MEDIA QUERIES(Mobile)=============================================================*/
+@media screen and (max-width:600px) {
+    .QR__info {
+        padding: 1rem;
+    }
+
+    .QR__component {
+        font-size: 1rem;
+    }
+
+
+
+   .QR__info p {
+    font-size: 0.8rem;
+   }
+}
